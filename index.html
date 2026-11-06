@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Catatan Produk – Toko Fissa</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="wrap bar">
+<div class="brand"><span class="logo">F</span><div>Catatan Produk<small>Toko Fissa</small></div></div>
+<button class="btn pri" data-act="new">Tambah produk</button>
+</div></header>
+<main class="wrap">
+<section class="hero" aria-label="Waktu dan tanggal">
+<div><p class="gr" id="gr"></p><div class="clk"><span id="hm">00:00</span><small id="ss">00</small></div><div class="tz" id="tz"></div></div>
+<div class="dt"><b id="wd"></b><span id="gd"></span><span class="hj" id="hj"></span>
+<div class="hoff"><span>Koreksi hijriah:</span><button data-act="hoff" data-id="-1">−1 hari</button><button data-act="hoff" data-id="0">Sesuai</button><button data-act="hoff" data-id="1">+1 hari</button></div></div>
+</section>
+<div id="app"></div>
+</main>
+<dialog id="dlg"></dialog>
+<div id="toast" role="status"></div>
+<script src="script.js"></script>
+</body>
+</html>
